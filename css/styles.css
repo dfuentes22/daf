@@ -95,6 +95,12 @@ hr {
     text-shadow: none;
 }
 
+.navbar-default .navbar-brand {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 700;
+    color: #f05f40;
+}
+
 .navbar-default .navbar-nav > li > a:hover {
     color: #E15D5F;
 }
@@ -221,7 +227,10 @@ hr {
   font-family: 'Nothing You Could Do', cursive;
   font-weight: 700;
   color: white;
+}
 
+.service {
+  padding-top: 20px;
 }
 .service-box {
   max-width: 400px;
@@ -240,6 +249,23 @@ hr {
 border-color: #f05f40;
 border-width: 3px;
 max-width: 50px;
+}
+
+.service-list {
+  margin-top: 50px;
+}
+
+.service-list hr {
+  border-color: #fff;
+}
+
+.list {
+    background-color: #f05f40;
+    padding-bottom: 10px;
+}
+
+.service-text {
+  color:#f05f40;
 }
 /*-----------  -----------*/
 /*-----------  -----------*/

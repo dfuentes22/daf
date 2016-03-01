@@ -11,22 +11,96 @@ html(lang="en")
 
     .container
       .row
-        .col-lg-12.text-center
+        .service.col-lg-12.text-center
           h2 At Your Service
           hr.primary
       .row
         .col-lg-4.col-md-6.text-center
           .service-box
-            i.fa.fa-4x.fa-wrench.wow.bounceIn.text-primary
+            i.fa.fa-4x.fa-wrench.wow.bounceIn.service-text
             h3 Repairs
-            p.text-muted Our templates are updated regularly so they don't break.
+            p.text-muted AfriTech specializes in repairing all kinds of computers.
         .col-lg-4.col-md-6.text-center
           .service-box
-            i.fa.fa-4x.fa-cogs.wow.bounceIn.text-primary(data-wow-delay='.1s')
+            i.fa.fa-4x.fa-cogs.wow.bounceIn.service-text(data-wow-delay='.1s')
             h3 Hardware
-            p.text-muted You can use this theme as is, or you can make changes!
+            p.text-muted Save money on refurbished computers and parts from Afritech.
         .col-lg-4.col-md-12.text-center
           .service-box
-            i.fa.fa-4x.fa-laptop.wow.bounceIn.text-primary(data-wow-delay='.2s')
+            i.fa.fa-4x.fa-laptop.wow.bounceIn.service-text(data-wow-delay='.2s')
             h3 Software
-            p.text-muted We update dependencies to keep things fresh.
+            p.text-muted We update update your software to keep things running smoothly.
+    .container-fluid
+      .row
+        .service-list.list.col-lg-12.text-center
+          h2 Service List
+          hr.primary
+      .row
+        .col-md-4.list
+          .media
+            .pull-left
+              span.fa-stack.fa-2x
+                i.fa.fa-circle.fa-stack-2x.text-primary
+                i.fa.fa-tree.fa-stack-1x.fa-inverse
+            .media-body
+              h4.media-heading Virus Removal
+          .media
+            .pull-left
+              span.fa-stack.fa-2x
+                i.fa.fa-circle.fa-stack-2x.text-primary
+                i.fa.fa-car.fa-stack-1x.fa-inverse
+            .media-body
+              h4.media-heading Spyware Removal
+          .media
+            .pull-left
+              span.fa-stack.fa-2x
+                i.fa.fa-circle.fa-stack-2x.text-primary
+                i.fa.fa-support.fa-stack-1x.fa-inverse
+            .media-body
+              h4.media-heading PC Repairs
+        .col-md-4.list
+          .media
+            .pull-left
+              span.fa-stack.fa-2x
+                i.fa.fa-circle.fa-stack-2x.text-primary
+                i.fa.fa-database.fa-stack-1x.fa-inverse
+            .media-body
+              h4.media-heading Screen Replacement
+          .media
+            .pull-left
+              span.fa-stack.fa-2x
+                i.fa.fa-circle.fa-stack-2x.text-primary
+                i.fa.fa-bomb.fa-stack-1x.fa-inverse
+            .media-body
+              h4.media-heading Power Connectors
+          .media
+            .pull-left
+              span.fa-stack.fa-2x
+                i.fa.fa-circle.fa-stack-2x.text-primary
+                i.fa.fa-bank.fa-stack-1x.fa-inverse
+            .media-body
+              h4.media-heading Hard Drive Replacement
+        .col-md-4.list
+          .media
+            .pull-left
+              span.fa-stack.fa-2x
+                i.fa.fa-circle.fa-stack-2x.text-primary
+                i.fa.fa-paper-plane.fa-stack-1x.fa-inverse
+            .media-body
+              h4.media-heading Motherboard Replacement
+          .media
+            .pull-left
+              span.fa-stack.fa-2x
+                i.fa.fa-circle.fa-stack-2x.text-primary
+                i.fa.fa-space-shuttle.fa-stack-1x.fa-inverse
+            .media-body
+              h4.media-heading Motherboard Repairs
+          .media
+            .pull-left
+              span.fa-stack.fa-2x
+                i.fa.fa-circle.fa-stack-2x.text-primary
+                i.fa.fa-recycle.fa-stack-1x.fa-inverse
+            .media-body
+              h4.media-heading Reinstall Windows
+
+    include ./footer.jade    
