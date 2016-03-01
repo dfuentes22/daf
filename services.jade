@@ -1,0 +1,32 @@
+doctype html
+html(lang="en")
+  include ./head.jade
+  body
+    include ./nav.jade
+    .container-fluid
+      .row
+        .header.col-md12.text-center
+          h1 Fix It Right The First Time
+
+
+    .container
+      .row
+        .col-lg-12.text-center
+          h2 At Your Service
+          hr.primary
+      .row
+        .col-lg-4.col-md-6.text-center
+          .service-box
+            i.fa.fa-4x.fa-wrench.wow.bounceIn.text-primary
+            h3 Repairs
+            p.text-muted Our templates are updated regularly so they don't break.
+        .col-lg-4.col-md-6.text-center
+          .service-box
+            i.fa.fa-4x.fa-cogs.wow.bounceIn.text-primary(data-wow-delay='.1s')
+            h3 Hardware
+            p.text-muted You can use this theme as is, or you can make changes!
+        .col-lg-4.col-md-12.text-center
+          .service-box
+            i.fa.fa-4x.fa-laptop.wow.bounceIn.text-primary(data-wow-delay='.2s')
+            h3 Software
+            p.text-muted We update dependencies to keep things fresh.

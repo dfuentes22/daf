@@ -1,0 +1,254 @@
+/*
+ * typeguide.css
+ * by @kev_mcg
+ * http://github.com/kmcgillivray
+ */
+ 
+ /*-----------General----------*/
+
+
+
+/*-----------Typography----------*/
+html {
+  font-size: 15px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.35;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+  font-size: 1rem;
+}
+h1 {
+  margin-top: 0px;
+  font-size: 1.4rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+ul {
+  padding-left: 20px;
+}
+ol {
+  padding-left: 30px;
+}
+/* --List styling (bug in nav)
+ul li,
+ol li {
+  margin-top: 0px;
+  margin-bottom: .75rem;
+}*/
+blockquote {
+  padding-left: .75rem;
+  padding-right: .75rem;
+  font-size: .9rem;
+  line-height: 1.35;
+  border-left: none;
+}
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #777;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+/**  Header Navigation **/
+
+.navbar {
+    top: 0;
+    right:0;
+    padding: 15px 0;
+    z-index: 0;
+}
+
+.navbar-default {
+    background-image: none;
+    background-color: #fefefe;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-weight: 700;
+    color: #aaa;
+    background: transparent;
+    text-shadow: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #E15D5F;
+}
+
+.navbar-default .navbar-nav .active a {
+    font-weight: 700;
+    color: #729f98;
+    background: transparent;
+    text-shadow: none;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+    color: #E15D5F;
+    background: transparent;
+    text-shadow: none;
+}
+
+.navbar-default .navbar-nav .active a:focus {
+    color: #E15D5F;
+    background: transparent;
+    text-shadow: none;
+}
+
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a {
+    box-shadow: none;
+}
+
+/**  Navbar Toggle **/
+
+.navbar-default .navbar-toggle {
+    background-color: #de275c;
+    border-color: #DE275C;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #de275c;
+    border-color: #DE275C;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: #de275c;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-collapse {
+  background-color: rgba(219,228,227, .5)
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse {
+        background-color: transparent;
+    }
+}
+
+/*----------- Splash -----------*/
+.side{
+  min-height:750px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.side p {
+  padding-top: 200px;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 100px;
+  font-weight: 700;
+}
+.side:hover{
+  opacity: .7;
+  transition: opacity .50s ease-in-out;
+  -moz-transition: opacity .50s ease-in-out;
+  -webkit-transition: opacity .50s ease-in-out;
+}
+
+.splash-left {
+  background-image: url("../img/savannah-day.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.splash-right {
+  background-image: url("../img/savannah-night.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: tomato;
+}
+
+ .splash-left a {
+  color: DarkSlateGray;
+  text-decoration: none;
+ }
+
+  .splash-right a {
+  color: tomato;
+  text-decoration: none;
+ }
+
+ .side a:hover {
+  color:black;
+ }
+
+
+/*----------- footer -----------*/
+
+.copyright {
+  text-align: center;
+  padding-top: 15px;
+}
+/*----------- services -----------*/
+.header {
+  background-image: url("../img/services.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.header h1{
+  font-size: 60px;
+  font-family: 'Nothing You Could Do', cursive;
+  font-weight: 700;
+  color: white;
+
+}
+.service-box {
+  max-width: 400px;
+  margin: 50px auto 0;
+}
+@media (min-width: 992px) {
+  .service-box {
+    margin: 20px auto 0;
+  }
+}
+.service-box p {
+  margin-bottom: 0;
+}
+
+hr {
+border-color: #f05f40;
+border-width: 3px;
+max-width: 50px;
+}
+/*-----------  -----------*/
+/*-----------  -----------*/
+/*-----------  -----------*/
+/*-----------  -----------*/
+/*-----------  -----------*/
+/*-----------  -----------*/
+/*-----------  -----------*/
+/*-----------  -----------*/
+/*-----------  -----------*/
+/*-----------  -----------*/
+/*-----------  -----------*/

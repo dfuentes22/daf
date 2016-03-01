@@ -3,9 +3,30 @@ html(lang="en")
 	include ./head.jade
 
 	body
-		h1 Jade - node template engine
-		#container.col
+		nav.navbar.navbar-default( role="navigation" )
+			.navbar-header
+				button.navbar-toggle.collapsed( type="button", data-toggle="collapse", data-target="#navbar-inverse", aria-expanded="false", aria-controls="navbar")
+					span.sr-only Toggle navigation
+					span.icon-bar
+					span.icon-bar
+					span.icon-bar
+				a.navbar-brand(href="#")
 
+			#navbar-inverse.collapse.navbar-collapse
+				ul.nav.navbar-nav.navbar-right
+					li: a( href="inded.html") Home
+					li: a( href="services.html" ) Services
+					li: a( href="products.html" ) Products
+					li: a( href="contact.html" ) Contact
+					li: a( href="about.html" ) About
+					li: a( href="faq.html" ) FAQ
+
+		.container-fluid
+			.row
+				.col-md-6.side.splash-left
+					p: a(href="#") Derry African Market
+				.col-md-6.side.splash-right
+					p: a(href="services.html") Derry Tech Services
+				
 		include ./footer.jade
-		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js")
 
