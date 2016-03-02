@@ -262,11 +262,11 @@ max-width: 50px;
 
 .list {
     background-color: #f05f40;
-    padding-bottom: 20px;
 }
 
 .list-items {
     padding-left: 100px;
+    padding-bottom: 20px;
 }
 
 .service-text {
