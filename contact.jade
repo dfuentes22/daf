@@ -1,0 +1,38 @@
+doctype html
+html(lang="en")
+  include ./head.jade
+  body
+    include ./nav.jade
+    .container-fluid
+      .row
+        .header.col-md12.text-center
+          h1 Get In Touch!
+    .container
+      .row
+        .service-title.col-lg-12.text-center
+          h2 Send Us a Message
+          hr.primary
+      .row
+        .col-md-4.contact
+          h3 Contact Details
+          p 1922 Derry St. Harrisburg, PA 17104
+          p: i.fa.fa-phone  717) 608-9135
+          p: i.fa.fa-envelope-o  #[a(href="mailto:onekalulu@gmail.com") onekalulu@gmail.com]
+          p: i.fa.fa-clock-o  Monday - Sunday: 9:00 AM to 9:00 PM
+        .col-md-8.form-box.text-center
+          .form-bottom
+            form.registration-form(role='form', action='', method='post')
+              .form-group
+                label.sr-only(for='form-first-name') First name
+                input#form-first-name.form-first-name.form-control(type='text', name='form-first-name', placeholder='First & Last name ')
+              .form-group
+                label.sr-only(for='form-email') Email
+                input#form-email.form-email.form-control(type='text', name='form-email', placeholder='Email@domain.com')
+              .form-group
+                label.sr-only(for='form-about-yourself') About yourself
+                textarea#form-about-yourself.form-about-yourself.form-control(name='form-about-yourself', placeholder='About yourself...')
+              button.btn(type='submit') Send
+      br
+      br
+
+    include ./footer.jade   
