@@ -235,11 +235,16 @@ hr {
 .service-title {
   padding-top: 20px;
 }
+
+.service-box {
+  padding-bottom: 50px;
+}
 @media (min-width: 992px) {
   .service-box {
     margin: 20px auto 0;
   }
 }
+
 .service-box p {
   margin-bottom: 0;
 }
@@ -252,10 +257,13 @@ max-width: 50px;
 
 .service-list {
   margin-top: 50px;
+  padding-top: 20px;
 }
 
 .service-list hr {
   border-color: #fff;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .list {
@@ -263,10 +271,12 @@ max-width: 50px;
 }
 
 .list-items {
-    padding-left: 100px;
     padding-bottom: 20px;
+    padding-top: 20px;
 }
-
+.item {
+  white-space: nowrap;
+}
 .service-text {
   color:#f05f40;
 }
