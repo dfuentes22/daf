@@ -2,11 +2,13 @@
  * typeguide.css
  * by @kev_mcg
  * http://github.com/kmcgillivray
+ ---------------------------------
+ * daf.css
+ * by @FuentesDPro
+ * http://github.com/dfuentes22;
  */
  
  /*-----------General----------*/
-
-
 
 /*-----------Typography----------*/
 html {
@@ -233,10 +235,6 @@ hr {
 .service-title {
   padding-top: 20px;
 }
-.service-box {
-  max-width: 400px;
-  margin: 50px auto 0;
-}
 @media (min-width: 992px) {
   .service-box {
     margin: 20px auto 0;
@@ -272,7 +270,15 @@ max-width: 50px;
 .service-text {
   color:#f05f40;
 }
-/*-----------  -----------*/
+/*----------- Products -----------*/
+
+.thumbnail {
+  border: none;
+}
+
+.caption h3 {
+  color: #888;
+}
 /*-----------  -----------*/
 /*-----------  -----------*/
 /*-----------  -----------*/
