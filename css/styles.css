@@ -212,6 +212,7 @@ hr {
 .copyright {
   text-align: center;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 /*----------- services -----------*/
 .header {
@@ -229,7 +230,7 @@ hr {
   color: white;
 }
 
-.service {
+.service-title {
   padding-top: 20px;
 }
 .service-box {
@@ -261,7 +262,11 @@ max-width: 50px;
 
 .list {
     background-color: #f05f40;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.list-items {
+    padding-left: 100px;
 }
 
 .service-text {
