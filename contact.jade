@@ -24,14 +24,15 @@ html(lang="en")
             form.registration-form(role='form', action='', method='post')
               .form-group
                 label.sr-only(for='form-first-name') First name
-                input#form-first-name.form-first-name.form-control(type='text', name='form-first-name', placeholder='First & Last name ')
+                input#name.form-first-name.form-control(type='text', name='name', placeholder='First & Last name ')
               .form-group
                 label.sr-only(for='form-email') Email
-                input#form-email.form-email.form-control(type='text', name='form-email', placeholder='Email@domain.com')
+                input#email.form-email.form-control(type='text', name='email', placeholder='Email@domain.com')
               .form-group
                 label.sr-only(for='form-about-yourself') About yourself
-                textarea#form-about-yourself.form-about-yourself.form-control(name='form-about-yourself', placeholder='About yourself...')
-              button.btn(type='submit') Send
+                textarea#message.form-about-yourself.form-control(name='message', placeholder='About yourself...')
+              input#submit.btn(name='submit', type='submit', value='Send')
+              
       br
       br
 

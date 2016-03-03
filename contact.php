@@ -17,7 +17,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="services.html">AfriTech</a></li>
           <li><a href="products.html">Products</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="faq.html">FAQ</a></li>
         </ul>
@@ -47,18 +47,21 @@
         </div>
         <div class="col-md-8 form-box text-center">
           <div class="form-bottom">
-            <form role="form" action="" method="post" class="registration-form">
+            <form role="form" method="post" action="contact_process.php" class="registration-form">
               <div class="form-group">
                 <label for="form-first-name" class="sr-only">First name</label>
-                <input id="name" type="text" name="name" placeholder="First &amp; Last name " class="form-first-name form-control">
+                <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>" required>
+                <?php echo "<p class='text-danger'>$errName</p>";?>
               </div>
               <div class="form-group">
                 <label for="form-email" class="sr-only">Email</label>
-                <input id="email" type="text" name="email" placeholder="Email@domain.com" class="form-email form-control">
+                <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>" required>
+                <?php echo "<p class='text-danger'>$errEmail</p>";?>
               </div>
               <div class="form-group">
                 <label for="form-about-yourself" class="sr-only">About yourself</label>
-                <textarea id="message" name="message" placeholder="About yourself..." class="form-about-yourself form-control"></textarea>
+                <textarea class="form-control" rows="4" name="message" required><?php echo htmlspecialchars($_POST['message']);?></textarea>
+                <?php echo "<p class='text-danger'>$errMessage</p>";?>
               </div>
               <input id="submit" name="submit" type="submit" value="Send" class="btn">
             </form>

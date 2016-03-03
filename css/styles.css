@@ -104,7 +104,8 @@ hr {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: #E15D5F;
+    color: tomato;
+    border-bottom: 2px solid tomato;
 }
 
 .navbar-default .navbar-nav .active a {
@@ -115,13 +116,13 @@ hr {
 }
 
 .navbar-default .navbar-nav .active a:hover {
-    color: #E15D5F;
+    color: tomato;
     background: transparent;
     text-shadow: none;
 }
 
 .navbar-default .navbar-nav .active a:focus {
-    color: #E15D5F;
+    color: tomato;
     background: transparent;
     text-shadow: none;
 }
@@ -134,17 +135,17 @@ hr {
 /**  Navbar Toggle **/
 
 .navbar-default .navbar-toggle {
-    background-color: #de275c;
-    border-color: #DE275C;
+    background-color: tomato;
+    border-color: tomato;
 }
 
 .navbar-default .navbar-toggle:hover {
-    background-color: #de275c;
-    border-color: #DE275C;
+    background-color: tomato;
+    border-color: tomato;
 }
 
 .navbar-default .navbar-toggle:focus {
-    background-color: #de275c;
+    background-color: tomato;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
