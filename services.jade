@@ -1,0 +1,78 @@
+doctype html
+html(lang="en")
+  include ./head.jade
+  body
+    include ./nav.jade
+    .container-fluid
+      .row
+        .header.col-md12.text-center
+          h1 Fix It Right The First Time
+
+
+    .container
+      .row
+        .service-title.col-lg-12.text-center
+          h2 At Your Service
+          hr.primary
+      .row
+        .col-lg-4.col-md-6.text-center
+          .service-box
+            i.fa.fa-4x.fa-wrench.wow.bounceIn.service-text
+            h3 Repairs
+            p.text-muted AfriTech specializes in repairing all kinds of computers.
+        .col-lg-4.col-md-6.text-center
+          .service-box
+            i.fa.fa-4x.fa-cogs.wow.bounceIn.service-text(data-wow-delay='.1s')
+            h3 Hardware
+            p.text-muted Save money on refurbished computers and parts from Afritech.
+        .col-lg-4.col-md-12.text-center
+          .service-box
+            i.fa.fa-4x.fa-laptop.wow.bounceIn.service-text(data-wow-delay='.2s')
+            h3 Software
+            p.text-muted We update update your software to keep things running smoothly.
+    .container-fluid
+      .row
+        .service-list.list.col-lg-12.text-center
+            h2 Service List
+            hr.primary
+        .col-md-4.list.list-items.text-center
+          .col-md-12.item
+            span.fa-stack.fa-2x
+              i.fa.fa-check.fa-stack-1x.fa-inverse
+            h4-heading Virus Removal
+          .col-md-12.item
+            span.fa-stack.fa-2x
+              i.fa.fa-check.fa-stack-1x.fa-inverse
+            h4-heading Spyware Removal
+          .col-md-12.item
+            span.fa-stack.fa-2x
+              i.fa.fa-check.fa-stack-1x.fa-inverse
+            h4-heading PC Repairs
+        .col-md-4.list.list-items.text-center
+          .col-md-12.item
+            span.fa-stack.fa-2x
+              i.fa.fa-check.fa-stack-1x.fa-inverse
+            h4-heading Screen Replacement
+          .col-md-12.item
+            span.fa-stack.fa-2x
+              i.fa.fa-check.fa-stack-1x.fa-inverse
+            h4-heading Power Connectors
+          .col-md-12.item
+            span.fa-stack.fa-2x
+              i.fa.fa-check.fa-stack-1x.fa-inverse
+            h4-heading Hard Drive Replacement
+        .col-md-4.list.list-items.text-center
+            .col-md-12.item
+              span.fa-stack.fa-2x
+                i.fa.fa-check.fa-stack-1x.fa-inverse
+              h4-heading Motherboard Replacement
+            .col-md-12.item
+              span.fa-stack.fa-2x
+                i.fa.fa-check.fa-stack-1x.fa-inverse
+              h4-heading Motherboard Repairs
+            .col-md-12.item
+              span.fa-stack.fa-2x
+                i.fa.fa-check.fa-stack-1x.fa-inverse
+              h4-heading Reinstall Windows
+
+    include ./footer.jade    

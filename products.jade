@@ -1,0 +1,69 @@
+doctype html
+html(lang="en")
+  include ./head.jade
+  body
+    include ./nav.jade
+    .container-fluid
+      .row
+        .header.col-md12.text-center
+          h1 Great Products and Food!
+
+
+    .container
+      .row
+        .service-title.col-lg-12.text-center
+          h2 Featured Products
+          hr.primary
+      .row
+        .col-md-4.col-sm-6.text-center
+          .thumbnail
+            img(src="img/product-1.jpg").img-responsive.img-circle
+            .caption
+              h3 Shito
+        .col-md-4.col-sm-6.text-center
+          .thumbnail
+            img(src="img/product-2.jpg").img-responsive.img-circle
+            .caption
+              h3 Unga ya Ugali
+        .col-md-4.col-sm-6.text-center
+          .thumbnail
+            img(src="img/product-3.jpg").img-responsive.img-circle
+            .caption
+              h3 African Black Soap
+        .col-md-4.col-sm-6.text-center
+          .thumbnail
+            img(src="img/product-4.jpg").img-responsive.img-circle
+            .caption
+              h3 Pilau Masala
+        .col-md-4.col-sm-6.text-center
+          .thumbnail
+            img(src="img/product-5.jpg").img-responsive.img-circle
+            .caption
+              h3 Kenya Quality Tea
+        .col-md-4.col-sm-6.text-center
+          .thumbnail
+            img(src="img/product-6.jpg").img-responsive.img-circle
+            .caption
+              h3 Jumbo Jumbo Spice
+      .row
+        .service-title.col-lg-12.text-center
+          h2 We Cater!
+          hr.primary
+      .row
+        .col-md-4.col-sm-6.text-center
+          .thumbnail
+            img(src="img/food-1.jpg").img-responsive.img-rounded
+            .caption
+              h3 Chapati
+        .col-md-4.col-sm-6.text-center
+          .thumbnail
+            img(src="img/food-2.jpg").img-responsive.img-rounded
+            .caption
+              h3 Samosas
+        .col-md-4.col-sm-6.text-center
+          .thumbnail
+            img(src="img/food-3.jpg").img-responsive.img-rounded
+            .caption
+              h3 Nyama Choma na Kachubali
+
+    include ./footer.jade    

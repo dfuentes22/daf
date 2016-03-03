@@ -1,0 +1,307 @@
+/*
+ * typeguide.css
+ * by @kev_mcg
+ * http://github.com/kmcgillivray
+ ---------------------------------
+ * daf.css
+ * by @FuentesDPro
+ * http://github.com/dfuentes22;
+ */
+
+/*-----------Typography----------*/
+html {
+  font-size: 15px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.35;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+  font-size: 1rem;
+}
+h1 {
+  margin-top: 0px;
+  font-size: 1.4rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+ul {
+  padding-left: 20px;
+}
+ol {
+  padding-left: 30px;
+}
+/* --List styling (bug in nav)
+ul li,
+ol li {
+  margin-top: 0px;
+  margin-bottom: .75rem;
+}*/
+blockquote {
+  padding-left: .75rem;
+  padding-right: .75rem;
+  font-size: .9rem;
+  line-height: 1.35;
+  border-left: none;
+}
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #777;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+/**  Header Navigation **/
+
+.navbar {
+    top: 0;
+    right:0;
+    padding: 15px 0;
+    z-index: 0;
+}
+
+.navbar-default {
+    background-image: none;
+    background-color: #fefefe;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-weight: 700;
+    color: #aaa;
+    background: transparent;
+    text-shadow: none;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 700;
+    color: #f05f40;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: tomato;
+    border-bottom: 2px solid tomato;
+}
+
+.navbar-default .navbar-nav .active a {
+    font-weight: 700;
+    color: #729f98;
+    background: transparent;
+    text-shadow: none;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+    color: tomato;
+    background: transparent;
+    text-shadow: none;
+}
+
+.navbar-default .navbar-nav .active a:focus {
+    color: tomato;
+    background: transparent;
+    text-shadow: none;
+}
+
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .active > a {
+    box-shadow: none;
+}
+
+/**  Navbar Toggle **/
+
+.navbar-default .navbar-toggle {
+    background-color: tomato;
+    border-color: tomato;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: tomato;
+    border-color: tomato;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: tomato;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-collapse {
+  background-color: rgba(219,228,227, .5)
+}
+
+@media (min-width: 768px) {
+    .navbar-collapse {
+        background-color: transparent;
+    }
+}
+
+/*----------- Splash -----------*/
+.side{
+  min-height:800px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.side p {
+  padding-top: 200px;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 100px;
+  font-weight: 700;
+}
+.side:hover{
+  opacity: .7;
+  transition: opacity .50s ease-in-out;
+  -moz-transition: opacity .50s ease-in-out;
+  -webkit-transition: opacity .50s ease-in-out;
+}
+
+.splash-left {
+  background-image: url("../img/savannah-day.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+.splash-right {
+  background-image: url("../img/savannah-night.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: tomato;
+}
+
+ .splash-left a {
+  color: DarkSlateGray;
+  text-decoration: none;
+ }
+
+  .splash-right a {
+  color: tomato;
+  text-decoration: none;
+ }
+
+ .side a:hover {
+  color:black;
+ }
+
+
+/*----------- footer -----------*/
+
+.copyright {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+
+.copyright p {
+  font-size: .75em;
+}
+/*----------- services -----------*/
+.header {
+  background-image: url("../img/services.jpg");
+  background-position: center center;
+  background-size: cover;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.header h1{
+  font-size: 60px;
+  font-family: 'Nothing You Could Do', cursive;
+  font-weight: 700;
+  color: white;
+}
+
+.service-title {
+  padding-top: 20px;
+}
+
+.service-box {
+  padding-bottom: 50px;
+}
+@media (min-width: 992px) {
+  .service-box {
+    margin: 20px auto 0;
+  }
+}
+
+.service-box p {
+  margin-bottom: 0;
+}
+
+hr {
+border-color: #f05f40;
+border-width: 3px;
+max-width: 50px;
+}
+
+.service-list {
+  margin-top: 50px;
+  padding-top: 20px;
+}
+
+.service-list hr {
+  border-color: #fff;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.list {
+    background-color: #f05f40;
+}
+
+.list-items {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.item {
+  white-space: nowrap;
+}
+.service-text {
+  color:#f05f40;
+}
+/*----------- Products -----------*/
+
+.thumbnail {
+  border: none;
+}
+
+.caption h3 {
+  color: #888;
+}
+/*----------- Faq -----------*/
+
+.faq-answers p {
+  font-size: 16px;
+}
+
+/*----------- Contact -----------*/
+.contact h3 {
+  margin-top: 0;
+}
+.form-box {
+  margin: 0 auto;
+}
